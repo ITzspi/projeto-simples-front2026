@@ -3,7 +3,7 @@
 // Em produção (Vercel), conecta no seu serviço no Render
 const BACKEND_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
   ? "http://localhost:5000"
-  : "https://projeto-simples-back2026.onrender.com"; // <- Quando criar seu serviço no Render, atualize aqui com a sua URL!
+  : "https://projeto-simples-back2026-ulpi.onrender.com";
 
 async function chamarAPI() {
   const elementoResposta = document.getElementById("resposta");
